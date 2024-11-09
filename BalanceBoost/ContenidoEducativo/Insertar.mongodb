@@ -1,0 +1,102 @@
+db.Usuarios.insertMany([[
+    {
+      "id_contenido": 1,
+      "nombre": "Ejercicio de meditación",
+      "id_usuario": 1
+    },
+    {
+      "id_contenido": 2,
+      "nombre": "Dieta balanceada",
+      "id_usuario": 2
+    },
+    {
+      "id_contenido": 3,
+      "nombre": "Rutina de ejercicios",
+      "id_usuario": 3
+    },
+    {
+      "id_contenido": 4,
+      "nombre": "Terapia cognitiva",
+      "id_usuario": 4
+    },
+    {
+      "id_contenido": 5,
+      "nombre": "Plan de alimentación",
+      "id_usuario": 5
+    },
+    {
+      "id_contenido": 6,
+      "nombre": "Entrenamiento con pesas",
+      "id_usuario": 6
+    },
+    {
+      "id_contenido": 7,
+      "nombre": "Mindfulness avanzado",
+      "id_usuario": 7
+    },
+    {
+      "id_contenido": 8,
+      "nombre": "Recetas vegetarianas",
+      "id_usuario": 8
+    },
+    {
+      "id_contenido": 9,
+      "nombre": "Crossfit",
+      "id_usuario": 9
+    },
+    {
+      "id_contenido": 10,
+      "nombre": "Control del estrés",
+      "id_usuario": 10
+    },
+    {
+      "id_contenido": 11,
+      "nombre": "Ejercicio de meditación",
+      "id_usuario": 1
+    },
+    {
+      "id_contenido": 12,
+      "nombre": "Dieta balanceada",
+      "id_usuario": 2
+    },
+    {
+      "id_contenido": 13,
+      "nombre": "Rutina de ejercicios",
+      "id_usuario": 3
+    },
+    {
+      "id_contenido": 14,
+      "nombre": "Terapia cognitiva",
+      "id_usuario": 4
+    },
+    {
+      "id_contenido": 15,
+      "nombre": "Plan de alimentación",
+      "id_usuario": 5
+    },
+    {
+      "id_contenido": 16,
+      "nombre": "Entrenamiento con pesas",
+      "id_usuario": 6
+    },
+    {
+      "id_contenido": 17,
+      "nombre": "Mindfulness avanzado",
+      "id_usuario": 7
+    },
+    {
+      "id_contenido": 18,
+      "nombre": "Recetas vegetarianas",
+      "id_usuario": 8
+    },
+    {
+      "id_contenido": 19,
+      "nombre": "Crossfit",
+      "id_usuario": 9
+    },
+    {
+      "id_contenido": 20,
+      "nombre": "Control del estrés",
+      "id_usuario": 10
+    }
+  ]])

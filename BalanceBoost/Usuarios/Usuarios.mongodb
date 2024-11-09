@@ -1,0 +1,35 @@
+
+
+// Usar la base de datos
+use("BalanceBoost");
+
+// Crear colección 'usuarios' con validación
+db.createCollection("usuarios", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            title: "Validación de Usuarios",
+            required: ["nombreUsuario", "email", "contraseña", "createdAt"],
+            properties: {
+                nombreUsuario: {
+                    bsonType: "string",
+                    minLength: 1
+                },
+                email: {
+                    bsonType: "string",
+                    pattern: "^[A-Za-z\\d._%+-]+@[A-Za-z\\d.-]+\\.[A-Za-z]{2,}$"
+                },
+                contraseña: {
+                    bsonType: "string",
+                    pattern: "^.{8,20}$"
+                },
+                createdAt: {
+                    bsonType: "date"
+                },
+                updatedAt: {
+                    bsonType: "date"
+                }
+            }
+        }
+    }
+});

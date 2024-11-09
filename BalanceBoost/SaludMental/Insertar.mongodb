@@ -1,0 +1,144 @@
+db.Usuarios.insertMany([
+  [
+    {
+      "id_salud_fisica": 1,
+      "rutina": "Rutina cardio",
+      "descanso": "8 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 1
+    },
+    {
+      "id_salud_fisica": 2,
+      "rutina": "Rutina fuerza",
+      "descanso": "7 horas",
+      "lesiones": "Leve en rodilla",
+      "id_contenido": 2
+    },
+    {
+      "id_salud_fisica": 3,
+      "rutina": "Entrenamiento funcional",
+      "descanso": "8 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 3
+    },
+    {
+      "id_salud_fisica": 4,
+      "rutina": "HIIT",
+      "descanso": "6 horas",
+      "lesiones": "Dolor de espalda",
+      "id_contenido": 4
+    },
+    {
+      "id_salud_fisica": 5,
+      "rutina": "Yoga",
+      "descanso": "9 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 5
+    },
+    {
+      "id_salud_fisica": 6,
+      "rutina": "Entrenamiento pesas",
+      "descanso": "7 horas",
+      "lesiones": "Lesión en muñeca",
+      "id_contenido": 6
+    },
+    {
+      "id_salud_fisica": 7,
+      "rutina": "Bicicleta",
+      "descanso": "8 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 7
+    },
+    {
+      "id_salud_fisica": 8,
+      "rutina": "Natación",
+      "descanso": "7 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 8
+    },
+    {
+      "id_salud_fisica": 9,
+      "rutina": "Crossfit",
+      "descanso": "6 horas",
+      "lesiones": "Lesión en hombro",
+      "id_contenido": 9
+    },
+    {
+      "id_salud_fisica": 10,
+      "rutina": "Pilates",
+      "descanso": "8 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 10
+    },
+    {
+      "id_salud_fisica": 11,
+      "rutina": "Rutina cardio avanzada",
+      "descanso": "7 horas",
+      "lesiones": "Lesión en tobillo",
+      "id_contenido": 1
+    },
+    {
+      "id_salud_fisica": 12,
+      "rutina": "Entrenamiento en circuito",
+      "descanso": "9 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 2
+    },
+    {
+      "id_salud_fisica": 13,
+      "rutina": "Spinning",
+      "descanso": "6 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 3
+    },
+    {
+      "id_salud_fisica": 14,
+      "rutina": "Entrenamiento con kettlebells",
+      "descanso": "7 horas",
+      "lesiones": "Lesión en codo",
+      "id_contenido": 4
+    },
+    {
+      "id_salud_fisica": 15,
+      "rutina": "Rutina fuerza avanzada",
+      "descanso": "8 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 5
+    },
+    {
+      "id_salud_fisica": 16,
+      "rutina": "Correr",
+      "descanso": "8 horas",
+      "lesiones": "Lesión en rodilla",
+      "id_contenido": 6
+    },
+    {
+      "id_salud_fisica": 17,
+      "rutina": "Escalada",
+      "descanso": "7 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 7
+    },
+    {
+      "id_salud_fisica": 18,
+      "rutina": "Boxeo",
+      "descanso": "7 horas",
+      "lesiones": "Lesión en mano",
+      "id_contenido": 8
+    },
+    {
+      "id_salud_fisica": 19,
+      "rutina": "Remo",
+      "descanso": "8 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 9
+    },
+    {
+      "id_salud_fisica": 20,
+      "rutina": "Zumba",
+      "descanso": "8 horas",
+      "lesiones": "Ninguna",
+      "id_contenido": 10
+    }
+  ]
+])

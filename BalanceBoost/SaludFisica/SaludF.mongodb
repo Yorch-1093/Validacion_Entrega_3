@@ -1,0 +1,37 @@
+// Usar la base de datos BalanceBoost
+use("BalanceBoost");
+
+// Crear la colección 'salud_fisica' con validación de datos
+db.createCollection("salud_fisica", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            title: "Validación de Salud_Fisica",
+            required: ["rutina", "descanso", "lesiones", "id_contenido"], // Campos requeridos
+            properties: {
+                rutina: {
+                    bsonType: "string",
+                    description: "Rutina de salud física",
+                    minLength: 1,
+                    maxLength: 100
+                },
+                descanso: {
+                    bsonType: "string",
+                    description: "Descripción del descanso",
+                    minLength: 1,
+                    maxLength: 100
+                },
+                lesiones: {
+                    bsonType: "string",
+                    description: "Información sobre lesiones",
+                    minLength: 1,
+                    maxLength: 100
+                },
+                id_contenido: {
+                    bsonType: "objectId",
+                    description: "ID de referencia al contenido educativo"
+                }
+            }
+        }
+    }
+});

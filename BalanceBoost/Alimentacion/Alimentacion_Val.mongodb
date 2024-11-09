@@ -1,0 +1,37 @@
+// Usar la base de datos BalanceBoost
+use("BalanceBoost");
+
+// Crear la colección 'alimentacion' con validación de datos
+db.createCollection("alimentacion", {
+    validator: {
+        $jsonSchema: {
+            bsonType: "object",
+            title: "Validación de Alimentacion",
+            required: ["proteinas", "comidas", "colaciones", "id_contenido"], // Campos requeridos
+            properties: {
+                proteinas: {
+                    bsonType: "string",
+                    description: "Información sobre la ingesta de proteínas",
+                    minLength: 1,
+                    maxLength: 100
+                },
+                comidas: {
+                    bsonType: "string",
+                    description: "Descripción de las comidas principales",
+                    minLength: 1,
+                    maxLength: 100
+                },
+                colaciones: {
+                    bsonType: "string",
+                    description: "Descripción de las colaciones",
+                    minLength: 1,
+                    maxLength: 100
+                },
+                id_contenido: {
+                    bsonType: "objectId",
+                    description: "ID de referencia al contenido educativo"
+                }
+            }
+        }
+    }
+});

@@ -1,0 +1,244 @@
+    db.Usuarios.insertMany([
+        [
+            {
+              "id_usuario": 1,
+              "nombreUsuario": "juan_perez",
+              "email": "juan.perez@gmail.com",
+              "contraseña": "pass123",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 2,
+              "nombreUsuario": "ana_gomez",
+              "email": "ana.gomez@yahoo.com",
+              "contraseña": "pass456",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 3,
+              "nombreUsuario": "carlos_sanchez",
+              "email": "carlos.sanchez@outlook.com",
+              "contraseña": "pass789",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 4,
+              "nombreUsuario": "laura_martinez",
+              "email": "laura.martinez@empresa.com",
+              "contraseña": "pass101112",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 5,
+              "nombreUsuario": "maria_fernandez",
+              "email": "maria.fernandez@hotmail.com",
+              "contraseña": "pass131415",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 6,
+              "nombreUsuario": "Axel Ramirez",
+              "email": "axel.ramirez@email.com",
+              "contraseña": "password123",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 7,
+              "nombreUsuario": "Luna Martinez",
+              "email": "luna.martinez@email.com",
+              "contraseña": "securepass",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 8,
+              "nombreUsuario": "Orion Vega",
+              "email": "orion.vega@email.com",
+              "contraseña": "orion456",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 9,
+              "nombreUsuario": "Sofia Marquez",
+              "email": "sofia.marquez@email.com",
+              "contraseña": "sofia789",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 10,
+              "nombreUsuario": "Dante Cruz",
+              "email": "dante.cruz@email.com",
+              "contraseña": "dante321",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 11,
+              "nombreUsuario": "Valeria Diaz",
+              "email": "valeria.diaz@email.com",
+              "contraseña": "valeria654",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 12,
+              "nombreUsuario": "Nico Torres",
+              "email": "nico.torres@email.com",
+              "contraseña": "nico987",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 13,
+              "nombreUsuario": "Emilia Flores",
+              "email": "emilia.flores@email.com",
+              "contraseña": "emilia147",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 14,
+              "nombreUsuario": "Bruno Morales",
+              "email": "bruno.morales@email.com",
+              "contraseña": "bruno258",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 15,
+              "nombreUsuario": "Isabella Reyes",
+              "email": "isabella.reyes@email.com",
+              "contraseña": "bella369",
+              "createdAt": "2024-10-10T21:35:10.330",
+              "updatedAt": "2024-10-10T21:35:10.330"
+            },
+            {
+              "id_usuario": 16,
+              "nombreUsuario": "juan_perez",
+              "email": "juan.perez@gmail.com",
+              "contraseña": "pass123",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 17,
+              "nombreUsuario": "ana_gomez",
+              "email": "ana.gomez@yahoo.com",
+              "contraseña": "pass456",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 18,
+              "nombreUsuario": "carlos_sanchez",
+              "email": "carlos.sanchez@outlook.com",
+              "contraseña": "pass789",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 19,
+              "nombreUsuario": "laura_martinez",
+              "email": "laura.martinez@empresa.com",
+              "contraseña": "pass101112",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 20,
+              "nombreUsuario": "maria_fernandez",
+              "email": "maria.fernandez@hotmail.com",
+              "contraseña": "pass131415",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 21,
+              "nombreUsuario": "Axel Ramirez",
+              "email": "axel.ramirez@email.com",
+              "contraseña": "password123",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 22,
+              "nombreUsuario": "Luna Martinez",
+              "email": "luna.martinez@email.com",
+              "contraseña": "securepass",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 23,
+              "nombreUsuario": "Orion Vega",
+              "email": "orion.vega@email.com",
+              "contraseña": "orion456",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 24,
+              "nombreUsuario": "Sofia Marquez",
+              "email": "sofia.marquez@email.com",
+              "contraseña": "sofia789",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 25,
+              "nombreUsuario": "Dante Cruz",
+              "email": "dante.cruz@email.com",
+              "contraseña": "dante321",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 26,
+              "nombreUsuario": "Valeria Diaz",
+              "email": "valeria.diaz@email.com",
+              "contraseña": "valeria654",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 27,
+              "nombreUsuario": "Nico Torres",
+              "email": "nico.torres@email.com",
+              "contraseña": "nico987",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 28,
+              "nombreUsuario": "Emilia Flores",
+              "email": "emilia.flores@email.com",
+              "contraseña": "emilia147",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 29,
+              "nombreUsuario": "Bruno Morales",
+              "email": "bruno.morales@email.com",
+              "contraseña": "bruno258",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            },
+            {
+              "id_usuario": 30,
+              "nombreUsuario": "Isabella Reyes",
+              "email": "isabella.reyes@email.com",
+              "contraseña": "bella369",
+              "createdAt": "2024-10-10T21:42:56.400",
+              "updatedAt": "2024-10-10T21:42:56.400"
+            }
+          ]
+])

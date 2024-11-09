@@ -1,0 +1,6 @@
+//Usar la base de datos 
+use("BalanceBoost")
+
+// Eliminar la colección progreso_ metas
+db.Progreso_Metas.drop()
+

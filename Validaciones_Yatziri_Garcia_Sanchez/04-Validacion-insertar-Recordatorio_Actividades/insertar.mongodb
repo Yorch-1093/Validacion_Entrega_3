@@ -1,0 +1,68 @@
+//Usar la base de datos 
+use("BalanceBoost")
+
+//Insertar 
+db.Recordatorio_Actividades.insertMany(
+    [
+        {
+            "id_recordatorio": 2,
+            "id_meta": 4,
+            "fecha_hora": "2024-06-15T08:00:00",
+            "mensaje": "Continuar con el siguiente módulo del curso."
+        },
+        {
+            "id_recordatorio": 3,
+            "id_meta": 5,
+            "fecha_hora": "2024-07-01T10:00:00",
+            "mensaje": "Ejercicio de escritura creativa semanal."
+        },
+        {
+            "id_recordatorio": 4,
+            "id_meta": 6,
+            "fecha_hora": "2024-08-01T09:00:00",
+            "mensaje": "Revisar el portafolio de diseño para posibles mejoras."
+        },
+        {
+            "id_recordatorio": 5,
+            "id_meta": 7,
+            "fecha_hora": "2024-05-25T14:00:00",
+            "mensaje": "Progreso en la creación de la interfaz de usuario."
+        },
+        {
+            "id_recordatorio": 6,
+            "id_meta": 8,
+            "fecha_hora": "2024-06-05T10:00:00",
+            "mensaje": "Reserva el viaje para el primer destino turístico."
+        },
+        {
+            "id_recordatorio": 7,
+            "id_meta": 1,
+            "fecha_hora": "2024-11-10T08:00:00",
+            "mensaje": "Avanzar en el siguiente capítulo del curso"
+        },
+        {
+            "id_recordatorio": 8,
+            "id_meta": 2,
+            "fecha_hora": "2024-12-01T09:00:00",
+            "mensaje": "Comenzar con el primer libro del mes"
+        },
+        {
+            "id_recordatorio": 9,
+            "id_meta": 3,
+            "fecha_hora": "2024-11-15T17:00:00",
+            "mensaje": "Transferir dinero a la cuenta de ahorros"
+        },
+        {
+            "id_recordatorio": 10,
+            "id_meta": 4,
+            "fecha_hora": "2024-11-09T06:30:00",
+            "mensaje": "Realizar entrenamiento de resistencia"
+        },
+        {
+            "id_recordatorio": 11,
+            "id_meta": 5,
+            "fecha_hora": "2024-11-11T10:00:00",
+            "mensaje": "Revisar apuntes de liderazgo"
+        }
+    ]
+)

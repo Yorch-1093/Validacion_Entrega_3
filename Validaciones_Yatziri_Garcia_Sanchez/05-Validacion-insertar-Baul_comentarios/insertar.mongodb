@@ -1,0 +1,113 @@
+//Usar la base de datos 
+use("BalanceBoost")
+
+//Insertar 
+db.Baul_Comentarios.insertMany(
+    [
+        {
+            "id_comentario": 1,
+            "tipo": "contenido educativo",
+            "comentario": "Tutorial sobre UX y diseño de interfaces.",
+            "id_usuario": 3,
+            "fecha": "2024-01-10"
+        },
+        {
+            "id_comentario": 2,
+            "tipo": "notas",
+            "comentario": "Idea para una nueva app de productividad.",
+            "id_usuario": 1,
+            "fecha": "2024-05-18"
+        },
+        {
+            "id_comentario": 3,
+            "tipo": "consejos",
+            "comentario": "Consejos sobre cómo mejorar la organización personal.",
+            "id_usuario": 2,
+            "fecha": "2024-04-25"
+        },
+        {
+            "id_comentario": 4,
+            "tipo": "contenido educativo",
+            "comentario": "Video sobre escritura creativa en línea.",
+            "id_usuario": 2,
+            "fecha": "2024-07-14"
+        },
+        {
+            "id_comentario": 5,
+            "tipo": "otros",
+            "comentario": "Reflexión: perseverancia en los momentos difíciles.",
+            "id_usuario": 3,
+            "fecha": "2024-06-20"
+        },
+        {
+            "id_comentario": 6,
+            "tipo": "contenido educativo",
+            "comentario": "Tutorial sobre UX y diseño de interfaces.",
+            "id_usuario": 3,
+            "fecha": "2024-01-10"
+        },
+        {
+            "id_comentario": 7,
+            "tipo": "notas",
+            "comentario": "Idea para una nueva app de productividad.",
+            "id_usuario": 1,
+            "fecha": "2024-05-18"
+        },
+        {
+            "id_comentario": 8,
+            "tipo": "consejos",
+            "comentario": "Consejos sobre cómo mejorar la organización personal.",
+            "id_usuario": 2,
+            "fecha": "2024-04-25"
+        },
+        {
+            "id_comentario": 9,
+            "tipo": "contenido educativo",
+            "comentario": "Video sobre escritura creativa en línea.",
+            "id_usuario": 2,
+            "fecha": "2024-07-14"
+        },
+        {
+            "id_comentario": 10,
+            "tipo": "otros",
+            "comentario": "Reflexión: perseverancia en los momentos difíciles.",
+            "id_usuario": 3,
+            "fecha": "2024-06-20"
+        },
+        {
+            "id_comentario": 11,
+            "tipo": "contenido educativo",
+            "comentario": "Artículo sobre la importancia de la planificación",
+            "id_usuario": 1,
+            "fecha": "2024-11-08"
+        },
+        {
+            "id_comentario": 12,
+            "tipo": "notas",
+            "comentario": "Recordar revisar el libro de productividad",
+            "id_usuario": 2,
+            "fecha": "2024-11-08"
+        },
+        {
+            "id_comentario": 13,
+            "tipo": "consejos",
+            "comentario": "Establecer metas diarias para mejorar el enfoque",
+            "id_usuario": 3,
+            "fecha": "2024-11-08"
+        },
+        {
+            "id_comentario": 14,
+            "tipo": "otros",
+            "comentario": "Inspiración del día: perseverar en los objetivos",
+            "id_usuario": 4,
+            "fecha": "2024-11-08"
+        },
+        {
+            "id_comentario": 15,
+            "tipo": "contenido educativo",
+            "comentario": "Curso de liderazgo y toma de decisiones",
+            "id_usuario": 5,
+            "fecha": "2024-11-08"
+        }
+    ]
+)

@@ -1,0 +1,6 @@
+// Usar la base de datos
+use("BalanceBoost")
+
+// Consultar la coleccion progreso_metas
+db.Progreso_Metas.find()
+

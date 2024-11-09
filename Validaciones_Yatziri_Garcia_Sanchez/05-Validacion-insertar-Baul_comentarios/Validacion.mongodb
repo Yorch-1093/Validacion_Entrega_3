@@ -1,0 +1,32 @@
+// Usar la base de datos
+use("BalanceBoost")
+
+// Crear el esquema de validación de Baul_Comentarios
+db.createCollection('baul_comentarios', {
+    validator: {
+        $jsonSchema: {
+            bsonType: 'object',
+            title: 'Validación del objeto de baul_comentarios',
+            required: ['tipo', 'comentario', 'id_usuario', 'fecha'],
+            properties: {
+                tipo: {
+                    bsonType: 'string',
+                    enum: ['contenido educativo', 'notas', 'consejos', 'otros'],
+                    description: 'Tipo de comentario, debe ser uno de los valores permitidos'
+                },
+                comentario: {
+                    bsonType: 'string',
+                    description: 'Contenido del comentario'
+                },
+                id_usuario: {
+                    bsonType: 'int',
+                    description: 'ID del usuario que realizó el comentario'
+                },
+                fecha: {
+                    bsonType: 'date',
+                    description: 'Fecha del comentario'
+                }
+            }
+        }
+    }
+});

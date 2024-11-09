@@ -1,0 +1,28 @@
+// Usar la base de datos
+use("BalanceBoost")
+
+// Crear el esquema de validación de Recordatorio_Actividades
+db.createCollection('recordatorios_actividades', {
+    validator: {
+        $jsonSchema: {
+            bsonType: 'object',
+            title: 'Validación del objeto de recordatorios_actividades',
+            required: ['id_meta', 'fecha_hora'],
+            properties: {
+                id_meta: {
+                    bsonType: 'int',
+                    description: 'ID de la meta asociada al recordatorio'
+                },
+                fecha_hora: {
+                    bsonType: 'date',
+                    description: 'Fecha y hora del recordatorio'
+                },
+                mensaje: {
+                    bsonType: 'string',
+                    maxLength: 255,
+                    description: 'Mensaje del recordatorio, hasta 255 caracteres'
+                }
+            }
+        }
+    }
+});

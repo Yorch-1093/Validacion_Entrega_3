@@ -1,0 +1,6 @@
+//Usar la base de datos 
+use("BalanceBoost")
+
+// Eliminar la colección metas
+db.metas.drop()
+

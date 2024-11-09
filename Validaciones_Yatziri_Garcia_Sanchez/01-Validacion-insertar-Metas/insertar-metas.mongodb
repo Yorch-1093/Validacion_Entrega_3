@@ -1,0 +1,132 @@
+
+
+// Usar la base de datos
+use("BalanceBoost")
+
+// Insertar 
+
+db.metas.insertMany(
+    [
+        {
+            "id_meta": 1,
+            "descripcion": "Terminar un curso en línea de programación",
+            "fechaInicio": "2024-02-01",
+            "fechaFin": "2024-06-01",
+            "estado": "en progreso",
+            "id_usuario": 1
+        },
+        {
+            "id_meta": 2,
+            "descripcion": "Mejorar mis habilidades de escritura creativa",
+            "fechaInicio": "2024-03-01",
+            "fechaFin": "2024-09-01",
+            "estado": "por realizar",
+            "id_usuario": 2
+        },
+        {
+            "id_meta": 3,
+            "descripcion": "Crear un portafolio de diseño gráfico",
+            "fechaInicio": "2024-01-10",
+            "fechaFin": "2024-07-30",
+            "estado": "completada",
+            "id_usuario": 3
+        },
+        {
+            "id_meta": 4,
+            "descripcion": "Desarrollar una aplicación móvil",
+            "fechaInicio": "2024-04-15",
+            "fechaFin": "2024-12-15",
+            "estado": "por realizar",
+            "id_usuario": 1
+        },
+        {
+            "id_meta": 5,
+            "descripcion": "Viajar a tres destinos turísticos",
+            "fechaInicio": "2024-05-01",
+            "fechaFin": "2024-11-01",
+            "estado": "por realizar",
+            "id_usuario": 3
+        },
+        {
+            "id_meta": 6,
+            "descripcion": "Terminar un curso en línea de programación",
+            "fechaInicio": "2024-02-01",
+            "fechaFin": "2024-06-01",
+            "estado": "en progreso",
+            "id_usuario": 1
+        },
+        {
+            "id_meta": 7,
+            "descripcion": "Mejorar mis habilidades de escritura creativa",
+            "fechaInicio": "2024-03-01",
+            "fechaFin": "2024-09-01",
+            "estado": "por realizar",
+            "id_usuario": 2
+        },
+        {
+            "id_meta": 8,
+            "descripcion": "Crear un portafolio de diseño gráfico",
+            "fechaInicio": "2024-01-10",
+            "fechaFin": "2024-07-30",
+            "estado": "completada",
+            "id_usuario": 3
+        },
+        {
+            "id_meta": 9,
+            "descripcion": "Desarrollar una aplicación móvil",
+            "fechaInicio": "2024-04-15",
+            "fechaFin": "2024-12-15",
+            "estado": "por realizar",
+            "id_usuario": 1
+        },
+        {
+            "id_meta": 10,
+            "descripcion": "Viajar a tres destinos turísticos",
+            "fechaInicio": "2024-05-01",
+            "fechaFin": "2024-11-01",
+            "estado": "por realizar",
+            "id_usuario": 3
+        },
+        {
+            "id_meta": 11,
+            "descripcion": "Completar curso de programación",
+            "fechaInicio": "2024-11-01",
+            "fechaFin": "2025-01-15",
+            "estado": "en progreso",
+            "id_usuario": 1
+        },
+        {
+            "id_meta": 12,
+            "descripcion": "Leer un libro al mes",
+            "fechaInicio": "2024-11-05",
+            "fechaFin": "2025-11-05",
+            "estado": "por realizar",
+            "id_usuario": 2
+        },
+        {
+            "id_meta": 13,
+            "descripcion": "Ahorrar para un viaje",
+            "fechaInicio": "2024-12-01",
+            "fechaFin": "2025-06-01",
+            "estado": "por realizar",
+            "id_usuario": 3
+        },
+        {
+            "id_meta": 14,
+            "descripcion": "Establecer rutina de ejercicio",
+            "fechaInicio": "2024-10-15",
+            "fechaFin": "2025-04-15",
+            "estado": "en progreso",
+            "id_usuario": 4
+        },
+        {
+            "id_meta": 15,
+            "descripcion": "Mejorar habilidades de liderazgo",
+            "fechaInicio": "2024-11-10",
+            "estado": "por realizar",
+            "id_usuario": 5
+        }
+    ]
+)
+
+

@@ -1,0 +1,77 @@
+//Usar la base de datos 
+use("BalanceBoost")
+
+//Insertar 
+db.Progreso_Metas.insertMany(
+[
+    {
+        "id_progreso_meta": 2,
+        "id_meta": 4,
+        "progreso_porcentaje": 60.00,
+        "fecha_actualizacion": "2024-05-15",
+        "comentarios": "He completado 3 módulos del curso de programación."
+    },
+    {
+        "id_progreso_meta": 3,
+        "id_meta": 5,
+        "progreso_porcentaje": 0.00,
+        "fecha_actualizacion": "2024-03-01",
+        "comentarios": "Inicio de la meta planeado para marzo."
+    },
+    {
+        "id_progreso_meta": 4,
+        "id_meta": 6,
+        "progreso_porcentaje": 100.00,
+        "fecha_actualizacion": "2024-07-30",
+        "comentarios": "Portafolio de diseño gráfico terminado."
+    },
+    {
+        "id_progreso_meta": 5,
+        "id_meta": 4,
+        "progreso_porcentaje": 80.00,
+        "fecha_actualizacion": "2024-06-10",
+        "comentarios": "Queda un módulo del curso."
+    },
+    {
+        "id_progreso_meta": 6,
+        "id_meta": 7,
+        "progreso_porcentaje": 20.00,
+        "fecha_actualizacion": "2024-05-20",
+        "comentarios": "He empezado a trabajar en la idea inicial de la aplicación."
+    },
+    {
+        "id_progreso_meta": 7,
+        "id_meta": 1,
+        "progreso_porcentaje": 40.00,
+        "fecha_actualizacion": "2024-11-08",
+        "comentarios": "Continuando con las lecciones diarias"
+    },
+    {
+        "id_progreso_meta": 8,
+        "id_meta": 2,
+        "progreso_porcentaje": 0.00,
+        "fecha_actualizacion": "2024-11-08",
+        "comentarios": "Iniciará el próximo mes"
+    },
+    {
+        "id_progreso_meta": 9,
+        "id_meta": 3,
+        "progreso_porcentaje": 10.00,
+        "fecha_actualizacion": "2024-11-08",
+        "comentarios": "Primer paso completado: abrir cuenta de ahorros"
+    },
+    {
+        "id_progreso_meta": 10,
+        "id_meta": 4,
+        "progreso_porcentaje": 60.00,
+        "fecha_actualizacion": "2024-11-08",
+        "comentarios": "Avanzando bien con los ejercicios"
+    },
+    {
+        "id_progreso_meta": 11,
+        "id_meta": 5,
+        "progreso_porcentaje": 5.00,
+        "fecha_actualizacion": "2024-11-08",
+        "comentarios": "Primera sesión de capacitación realizada"
+    }
+])

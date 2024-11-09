@@ -1,0 +1,113 @@
+//Usar la base de datos 
+use("BalanceBoost")
+
+//Insertar 
+db.Diario.insertMany(
+    [
+        {
+            "id_diario": 61,
+            "texto": "Hoy hice una pausa para relajarme y reducir el estrés.",
+            "id_usuario": 1,
+            "createdAt": "2024-11-08T18:51:42.307",
+            "updatedAt": "2024-11-08T18:51:42.307"
+        },
+        {
+            "id_diario": 62,
+            "texto": "Planeé mi semana de manera organizada.",
+            "id_usuario": 3,
+            "createdAt": "2024-11-08T18:51:42.307",
+            "updatedAt": "2024-11-08T18:51:42.307"
+        },
+        {
+            "id_diario": 63,
+            "texto": "Hoy fue un día productivo y logré avanzar en varios proyectos.",
+            "id_usuario": 2,
+            "createdAt": "2024-11-08T18:51:42.307",
+            "updatedAt": "2024-11-08T18:51:42.307"
+        },
+        {
+            "id_diario": 64,
+            "texto": "Escribí mis pensamientos sobre cómo alcanzar mis metas.",
+            "id_usuario": 1,
+            "createdAt": "2024-11-08T18:51:42.307",
+            "updatedAt": "2024-11-08T18:51:42.307"
+        },
+        {
+            "id_diario": 65,
+            "texto": "Participé en una actividad de equipo que me ayudó a mejorar mis habilidades sociales.",
+            "id_usuario": 3,
+            "createdAt": "2024-11-08T18:51:42.307",
+            "updatedAt": "2024-11-08T18:51:42.307"
+        },
+        {
+            "id_diario": 66,
+            "texto": "Hoy hice una pausa para relajarme y reducir el estrés.",
+            "id_usuario": 1,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 67,
+            "texto": "Planeé mi semana de manera organizada.",
+            "id_usuario": 3,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 68,
+            "texto": "Hoy fue un día productivo y logré avanzar en varios proyectos.",
+            "id_usuario": 2,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 69,
+            "texto": "Escribí mis pensamientos sobre cómo alcanzar mis metas.",
+            "id_usuario": 1,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 70,
+            "texto": "Participé en una actividad de equipo que me ayudó a mejorar mis habilidades sociales.",
+            "id_usuario": 3,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 71,
+            "texto": "Reflexioné sobre mis logros del mes",
+            "id_usuario": 1,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 72,
+            "texto": "Tuve una conversación importante con mi jefe",
+            "id_usuario": 2,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 73,
+            "texto": "Hoy aprendí a mejorar mi organización personal",
+            "id_usuario": 3,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 74,
+            "texto": "Hice ejercicio y me sentí con mucha energía",
+            "id_usuario": 4,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        },
+        {
+            "id_diario": 75,
+            "texto": "Dediqué tiempo a un proyecto personal importante",
+            "id_usuario": 5,
+            "createdAt": "2024-11-08T18:52:52.867",
+            "updatedAt": "2024-11-08T18:52:52.867"
+        }
+    ]
+)

@@ -1,0 +1,6 @@
+// Usar la base de datos
+use("BalanceBoost")
+
+// Consultar la coleccion Baul_Comentarios
+db.Baul_Comentarios.find()
+

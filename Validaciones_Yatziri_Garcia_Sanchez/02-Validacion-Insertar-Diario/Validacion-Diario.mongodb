@@ -1,0 +1,33 @@
+
+// Usar la base de datos
+use("BalanceBoost")
+
+// Crear el esquema de validación de diario
+db.createCollection('diario', {
+    validator: {
+        $jsonSchema: {
+            bsonType: 'object',
+            title: 'Validación del objeto de diario',
+            required: ['texto', 'id_usuario', 'createdAt', 'updatedAt'],
+            properties: {
+                texto: {
+                    bsonType: 'string',
+                    maxLength: 255,
+                    description: 'Texto del diario, hasta 255 caracteres'
+                },
+                id_usuario: {
+                    bsonType: 'int',
+                    description: 'ID del usuario asociado al diario'
+                },
+                createdAt: {
+                    bsonType: 'date',
+                    description: 'Fecha de creación del registro'
+                },
+                updatedAt: {
+                    bsonType: 'date',
+                    description: 'Fecha de actualización del registro'
+                }
+            }
+        }
+    }
+});

@@ -1,0 +1,6 @@
+// Usar la base de datos
+use("BalanceBoost")
+
+// Consultar la coleccion Recordatorio_Actividades
+db.Recordatorio_Actividades.find()
+

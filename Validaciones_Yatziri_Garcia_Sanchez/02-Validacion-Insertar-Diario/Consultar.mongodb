@@ -1,0 +1,6 @@
+// Usar la base de datos
+use("BalanceBoost")
+
+// Consultar la colección diario
+db.diario.find()
+

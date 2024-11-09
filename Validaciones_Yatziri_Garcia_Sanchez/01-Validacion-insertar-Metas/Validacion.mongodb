@@ -1,0 +1,36 @@
+
+// Usar la base de datos
+use("BalanceBoost")
+
+// Crear el esquema de validación de metas
+db.createCollection('metas', {
+    validator: { // validador 
+        $jsonSchema: {
+            bsonType: 'object',
+            title: 'Validación del objeto de metas',
+            required: ['descripcion', 'fechaInicio', 'estado'],
+            properties: {
+                descripcion: {
+                    bsonType: 'string',
+                    description: 'Descripción de la meta, hasta 255 caracteres'
+                },
+                fechaInicio: {
+                    bsonType: 'date',
+                    description: 'Fecha de inicio de la meta'
+                },
+                fechaFin: {
+                    bsonType: 'date',
+                    description: 'Fecha de finalización de la meta, opcional'
+                },
+                estado: {
+                    enum: ['por realizar', 'en progreso', 'completada', 'dada de baja'],
+                    description: 'Estado de la meta, con valores específicos'
+                },
+                id_usuario: {
+                    bsonType: 'int',
+                    description: 'ID del usuario asociado a la meta'
+                }
+            }
+        }
+    }
+})

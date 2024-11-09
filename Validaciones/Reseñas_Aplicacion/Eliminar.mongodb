@@ -1,0 +1,4 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+db.Reseñas_Aplicacion.drop()

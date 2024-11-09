@@ -1,0 +1,33 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+db.createCollection("Riesgos_Salud", {
+   validator: {
+     $jsonSchema: {
+       bsonType: "object",
+       required: ["id_riesgo_salud", "tipo", "id_usuario"],
+       properties: {
+         id_riesgo_salud: {
+           bsonType: "int",
+           description: "Debe ser un ID único y entero que funciona como clave primaria",
+           minimum: 1
+         },
+         tipo: {
+           bsonType: "string",
+           description: "Debe ser uno de los tipos permitidos: fisico, alimentacion, psicologico",
+           enum: ["fisico", "alimentacion", "psicologico"]
+         },
+         id_usuario: {
+           bsonType: "int",
+           description: "Debe ser una referencia al ID del usuario en la colección Usuarios"
+         }
+       }
+     }
+   },
+   validationLevel: "strict",
+   validationAction: "error"
+ });
+ 
+ //Indice unico
+ db.Riesgos_Salud.createIndex({ id_riesgo_salud: 1 }, { unique: true });
+ 

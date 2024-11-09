@@ -1,0 +1,32 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+// Insertar Reseñas
+db.Riesgos_Salud.insertMany(
+    [
+        {
+            "id_riesgo_salud": 1,
+            "tipo": "fisico",
+            "id_usuario": 1
+        },
+        {
+            "id_riesgo_salud": 2,
+            "tipo": "alimentacion",
+            "id_usuario": 2
+        },
+        {
+            "id_riesgo_salud": 3,
+            "tipo": "psicologico",
+            "id_usuario": 3
+        },
+        {
+            "id_riesgo_salud": 4,
+            "tipo": "fisico",
+            "id_usuario": 4
+        },
+        {
+            "id_riesgo_salud": 5,
+            "tipo": "alimentacion",
+            "id_usuario": 5
+        }
+]);

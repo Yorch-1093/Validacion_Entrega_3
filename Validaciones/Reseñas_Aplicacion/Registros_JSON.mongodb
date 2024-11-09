@@ -1,0 +1,112 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+// Insertar múltiples reseñas en Reseñas_Aplicacion
+db.Reseñas_Aplicacion.insertMany([
+    {
+        id_reseña: 2,
+        calificacion: 5,
+        comentario: "Excelente aplicación, muy intuitiva y fácil de usar.",
+        id_usuario: 1,
+        fecha_reseña: new Date("2024-10-01")
+    },
+    {
+        id_reseña: 3,
+        calificacion: 4,
+        comentario: "Muy buena, aunque podría mejorar en algunas funciones.",
+        id_usuario: 2,
+        fecha_reseña: new Date("2024-10-02")
+    },
+    {
+        id_reseña: 4,
+        calificacion: 3,
+        comentario: "La app es útil, pero encontré algunos errores en el uso diario.",
+        id_usuario: 3,
+        fecha_reseña: new Date("2024-10-03")
+    },
+    {
+        id_reseña: 5,
+        calificacion: 5,
+        comentario: "Realmente me ha ayudado a organizar mis actividades.",
+        id_usuario: 4,
+        fecha_reseña: new Date("2024-10-04")
+    },
+    {
+        id_reseña: 6,
+        calificacion: 4,
+        comentario: "Buena app, aunque los recordatorios a veces fallan.",
+        id_usuario: 5,
+        fecha_reseña: new Date("2024-10-05")
+    },
+    {
+        id_reseña: 7,
+        calificacion: 2,
+        comentario: "La aplicación se traba en mi dispositivo con frecuencia.",
+        id_usuario: 6,
+        fecha_reseña: new Date("2024-10-06")
+    },
+    {
+        id_reseña: 8,
+        calificacion: 5,
+        comentario: "Excelente interfaz y fácil de entender.",
+        id_usuario: 7,
+        fecha_reseña: new Date("2024-10-07")
+    },
+    {
+        id_reseña: 9,
+        calificacion: 3,
+        comentario: "Algunas funciones no son tan útiles para mi, pero es buena en general.",
+        id_usuario: 8,
+        fecha_reseña: new Date("2024-10-08")
+    },
+    {
+        id_reseña: 10,
+        calificacion: 4,
+        comentario: "Recomendada para quienes quieren mejorar su bienestar.",
+        id_usuario: 9,
+        fecha_reseña: new Date("2024-10-09")
+    },
+    {
+        id_reseña: 11,
+        calificacion: 1,
+        comentario: "No cumplió con mis expectativas, esperaba más funcionalidades.",
+        id_usuario: 10,
+        fecha_reseña: new Date("2024-10-10")
+    },
+    {
+        id_reseña: 12,
+        calificacion: 5,
+        comentario: "Perfecta para el seguimiento de mis metas diarias.",
+        id_usuario: 11,
+        fecha_reseña: new Date("2024-10-11")
+    },
+    {
+        id_reseña: 13,
+        calificacion: 3,
+        comentario: "Buena idea, pero le falta un poco de pulido en la ejecución.",
+        id_usuario: 12,
+        fecha_reseña: new Date("2024-10-12")
+    },
+    {
+        id_reseña: 14,
+        calificacion: 4,
+        comentario: "La uso todos los días, me encanta.",
+        id_usuario: 13,
+        fecha_reseña: new Date("2024-10-13")
+    },
+    {
+        id_reseña: 15,
+        calificacion: 2,
+        comentario: "Tuve problemas al registrarme, y el soporte tarda en responder.",
+        id_usuario: 14,
+        fecha_reseña: new Date("2024-10-14")
+    },
+    {
+        id_reseña: 16,
+        calificacion: 5,
+        comentario: "Muy útil para mi rutina diaria y bienestar.",
+        id_usuario: 15,
+        fecha_reseña: new Date("2024-10-15")
+    }
+]);
+

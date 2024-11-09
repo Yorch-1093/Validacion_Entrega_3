@@ -1,0 +1,26 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+db.createCollection("Riesgos_Fisicos", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["descripcion", "id_riesgo_salud"],
+      properties: {
+        descripcion: {
+          bsonType: "string",
+          minLength: 1,
+          description: "La descripcion debe ser una cadena de texto no vacía"
+        },
+        id_riesgo_salud: {
+          bsonType: "int",
+          description: "El id_riesgo_salud debe ser un número entero que corresponda a un riesgo de salud en Riesgos_Salud"
+        }
+      }
+    }
+  },
+  validationAction: "error"  // Generará error si se intenta insertar un dato incorrecto
+});
+
+ 
+ 

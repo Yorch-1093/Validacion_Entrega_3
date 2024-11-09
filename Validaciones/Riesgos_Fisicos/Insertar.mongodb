@@ -1,0 +1,33 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+// Insertar Reseñas
+db.Riesgos_Fisicos.insertMany(
+    [
+        {
+            "id_riesgo_fisico": 1,
+            "descripcion": "Lesiones musculares por levantamiento de pesas",
+            "id_riesgo_salud": 1
+        },
+        {
+            "id_riesgo_fisico": 2,
+            "descripcion": "Accidentes laborales por caídas",
+            "id_riesgo_salud": 2
+        },
+        {
+            "id_riesgo_fisico": 3,
+            "descripcion": "Daños en las articulaciones por esfuerzos repetitivos",
+            "id_riesgo_salud": 3
+        },
+        {
+            "id_riesgo_fisico": 4,
+            "descripcion": "Enfermedades respiratorias por exposición a sustancias tóxicas",
+            "id_riesgo_salud": 4
+        },
+        {
+            "id_riesgo_fisico": 5,
+            "descripcion": "Lesiones en la espalda por malas posturas",
+            "id_riesgo_salud": 5
+        }
+    ]
+);

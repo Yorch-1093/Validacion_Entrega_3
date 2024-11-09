@@ -1,0 +1,33 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+// Insertar Reseñas
+db.Apoyo_Psicologico.insertMany(
+    [
+        {
+            "id_riesgo_alimentacion": 1,
+            "descripcion": "Obesidad por exceso de calorías",
+            "id_riesgo_salud": 1
+        },
+        {
+            "id_riesgo_alimentacion": 2,
+            "descripcion": "Deficiencia de vitaminas y minerales",
+            "id_riesgo_salud": 2
+        },
+        {
+            "id_riesgo_alimentacion": 3,
+            "descripcion": "Enfermedades cardiovasculares por consumo excesivo de grasas",
+            "id_riesgo_salud": 3
+        },
+        {
+            "id_riesgo_alimentacion": 4,
+            "descripcion": "Diabetes tipo 2 por ingesta excesiva de azúcar",
+            "id_riesgo_salud": 4
+        },
+        {
+            "id_riesgo_alimentacion": 5,
+            "descripcion": "Trastornos gastrointestinales por dieta inadecuada",
+            "id_riesgo_salud": 5
+        },
+    ]
+)

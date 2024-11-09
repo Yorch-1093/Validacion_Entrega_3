@@ -1,0 +1,27 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+// Insertar Reseñas
+db.Reseñas_Aplicacion.insertMany([
+    {
+        id_reseña: 17,
+        calificacion: 4,
+        comentario: "La aplicación es muy completa, pero a veces se vuelve lenta en dispositivos antiguos.",
+        id_usuario: 16,
+        fecha_reseña: new Date("2024-10-16")
+    },
+    {
+        id_reseña: 18,
+        calificacion: 5,
+        comentario: "Excelente para organizar mi día a día, me ayuda a mantener el enfoque.",
+        id_usuario: 17,
+        fecha_reseña: new Date("2024-10-17")
+    },
+    {
+        id_reseña: 19,
+        calificacion: 3,
+        comentario: "La app es buena, pero me gustaría que tuviera más opciones de personalización.",
+        id_usuario: 18,
+        fecha_reseña: new Date("2024-10-18")
+    }
+]);

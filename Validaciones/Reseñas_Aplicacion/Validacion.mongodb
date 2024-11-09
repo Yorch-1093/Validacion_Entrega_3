@@ -1,0 +1,37 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+// Crear o modificar la validación de la colección
+db.createCollection("Reseñas_Aplicacion", {
+    validator: {
+       $jsonSchema: {
+          bsonType: "object",
+          required: ["id_reseña", "calificacion", "comentario", "id_usuario", "fecha_reseña"],
+          properties: {
+             id_reseña: {
+                bsonType: "int",
+                description: "Debe ser un número entero que represente el ID de la reseña"
+             },
+             calificacion: {
+                bsonType: "int",
+                minimum: 1,
+                maximum: 5,
+                description: "Debe ser un número entero entre 1 y 5"
+             },
+             comentario: {
+                bsonType: "string",
+                description: "Debe ser una cadena de texto"
+             },
+             id_usuario: {
+                bsonType: "int",
+                description: "Debe ser un número entero que represente el ID del usuario"
+             },
+             fecha_reseña: {
+                bsonType: "date",
+                description: "Debe ser una fecha válida"
+             }
+          }
+       }
+    }
+ });
+ 

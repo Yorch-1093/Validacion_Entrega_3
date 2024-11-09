@@ -1,0 +1,23 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+db.createCollection("Apoyo_Psicologico", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["descripcion", "id_riesgo_salud"],
+      properties: {
+        descripcion: {
+          bsonType: "string",
+          description: "La descripción del apoyo psicológico es obligatoria y debe ser una cadena de texto"
+        },
+        id_riesgo_salud: {
+          bsonType: "int",
+          description: "El id_riesgo_salud debe ser un entero que hace referencia a un riesgo de salud"
+        }
+      }
+    }
+  },
+  validationAction: "error"
+});
+

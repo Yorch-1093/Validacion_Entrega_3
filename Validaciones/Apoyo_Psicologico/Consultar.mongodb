@@ -1,0 +1,8 @@
+// Usar al base de datos
+use("BalanceBoost")
+
+db.Apoyo_Psicologico.find(
+    
+    {}
+
+);
